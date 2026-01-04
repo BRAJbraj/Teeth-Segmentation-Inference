@@ -18,3 +18,6 @@ To view these files locally, you can use software like:
 * MeshLab
 * CloudCompare
 * Open3D (Python)
+
+## The jupyter file contains all the codes necessary to do the inferencing.
+Note: You can read the readme file from the https://github.com/limhoyeon/ToothGroupNetwork to know more.
