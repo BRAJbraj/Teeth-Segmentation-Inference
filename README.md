@@ -23,10 +23,6 @@ This repository demonstrates a fully reproducible inference pipeline for 3D teet
 * **The Challenge:** The original repository lacked a clear data ingestion strategy, relying on static paths and missing zip files.
 * **The Solution:** I wrote a custom Python pipeline to securely authenticate and download specific datasets from Google Drive, unzip them, and programmatically restructure the directories into the format required by the inference engine (`data_obj_parent_directory`).
 
-### 3. Automated Inference Metadata Generation
-* **The Challenge:** The inference script failed at runtime because it expected a specific text file listing test cases, which was not provided in the source.
-* **The Solution:** I implemented a pre-processing script that scans the downloaded data directory, sanitizes filenames, and dynamically generates the required split file (`base_name_test_fold.txt`) at runtime, ensuring the pipeline runs without manual intervention.
-
 ---
 
 ## 📊 Model Visualizations
